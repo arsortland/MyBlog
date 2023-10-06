@@ -1,0 +1,69 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Mah Blog"
+theme: "PaperMod"
+
+menu:
+  main:
+    - name: Archive
+      url: archives/
+      weight: 5
+    - name: Tags
+      url: /tags/
+      weight: 8
+    - name: Search
+      url: /search/
+      weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: André R. Sortland
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    #ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    #ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    # comments: false
+    #images: ["papermod-cover.png"]
+
+    homeInfoParams:
+      Title: "Evolve and learn 👋"
+      Content: >
+          Welcome to a blog about everyting tech that interests me!
+
+          - **Here** you will find articles, tutorials, reviews and opinions in a broad range of subjects and technologies.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/arsortland"
+        #- name: KoFi
+         # url: "https://ko-fi.com/adityatelange"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/arsortland/"
+         #- name: LinkedIn
+          # url: "https://linkedin.com/arsortland"
+
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
