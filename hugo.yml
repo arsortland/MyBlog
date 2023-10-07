@@ -1,6 +1,6 @@
 baseURL: "https://example.org/"
 languageCode: "en-us"
-title: "Mah Blog"
+title: "André Sortland"
 theme: "PaperMod"
 
 menu:
@@ -14,6 +14,9 @@ menu:
     - name: Search
       url: /search/
       weight: 10
+    - identifier: about
+      name: About
+      url: /about/
 
 outputs:
     home:
@@ -41,12 +44,25 @@ params:
     # comments: false
     #images: ["papermod-cover.png"]
 
-    homeInfoParams:
-      Title: "Evolve and learn 👋"
-      Content: >
-          Welcome to a blog about everyting tech that interests me!
+    # Without this, archive doesn't show all pages
+    ShowAllPagesInArchive: true
 
-          - **Here** you will find articles, tutorials, reviews and opinions in a broad range of subjects and technologies.
+    homeInfoParams:
+      Title: "Curiosity leads the way 🤓"
+      Content: >
+          - Welcome to a blog about everyting tech that I am curios about!
+
+          - Here you will find articles, tutorials, reviews and opinions in a broad range of subjects and technologies.
+
+          - I recommend looking in the "Tags" section for topics of interest or searching if you are looking for anything specific :)
+
+    # profileMode:
+    #   enabled: true
+    #   title: André Sortland
+    #   imageUrl: "/me.jpeg"
+    #   imageWidth: 150
+    #   imageHeight: 150
+    #   imageTitle: This is me
 
     socialIcons:
         - name: github
@@ -57,6 +73,8 @@ params:
           url: "https://www.linkedin.com/in/arsortland/"
          #- name: LinkedIn
           # url: "https://linkedin.com/arsortland"
+        - name: email
+          url: "mailto: arsortland@gmail.com"
 
     fuseOpts:
         isCaseSensitive: false
