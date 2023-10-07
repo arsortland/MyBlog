@@ -42,10 +42,15 @@ params:
     #ShowRssButtonInSectionTermList: true
     ShowToc: true
     # comments: false
-    #images: ["papermod-cover.png"]
-
-    # Without this, archive doesn't show all pages
+    #Used image when links are shared:
+    images: ["andresortlandlogo.png"]
+    #Without this, archive doesn't show all pages
     ShowAllPagesInArchive: true
+    #Logo and name shown of the top left of site
+    label:
+      text: André Sortland
+      icon: /andresortlandlogo.png
+      iconHeight: 85
 
     homeInfoParams:
       Title: "Curiosity leads the way 🤓"
