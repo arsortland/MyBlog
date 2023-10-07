@@ -1,7 +1,7 @@
 ---
 title: "About me"
 date: 2023-10-07T13:01:37+02:00
-draft: true
+draft: false
 ---
 
 {{< rawhtml >}}
