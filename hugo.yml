@@ -52,6 +52,14 @@ params:
       icon: /andresortlandlogo.png
       iconHeight: 85
 
+    assets:
+    # Disables highlight.js, using Hugo Chroma instead
+    # https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+    # Note: Do not enable this. May not work correctly due to some code theme changes made in or around
+    # https://github.com/jesse-wei/jessewei.dev-PaperMod/commit/bcadfdde8e12a2a9f9ed853f9939695797b31739
+      disableHLJS: true
+    # disableFingerprinting: true
+
     homeInfoParams:
       Title: "Curiosity leads the way 🤓"
       Content: >
