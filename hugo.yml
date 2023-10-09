@@ -1,6 +1,6 @@
 baseURL: "https://andresortland.com/"
 languageCode: "en-us"
-title: "André Sortland"
+title: " "
 theme: "PaperMod"
 
 menu:
@@ -48,9 +48,9 @@ params:
     ShowAllPagesInArchive: true
     #Logo and name shown of the top left of site
     label:
-      text: André Sortland
+      #text: André Sortland
       icon: /andresortlandlogo.png
-      iconHeight: 85
+      iconHeight: 115
 
     assets:
     # Disables highlight.js, using Hugo Chroma instead
@@ -61,13 +61,11 @@ params:
     # disableFingerprinting: true
 
     homeInfoParams:
-      Title: "Curiosity leads the way 🤓"
+      Title: "The curios tech guy 🤓"
       Content: >
           - Welcome to a blog about everyting tech that I am curios about!
 
           - Here you will find articles, tutorials, reviews and opinions in a broad range of subjects and technologies.
-
-          - I recommend looking in the "Tags" section for topics of interest or searching if you are looking for anything specific :)
 
     # profileMode:
     #   enabled: true
