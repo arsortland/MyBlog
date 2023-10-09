@@ -20,6 +20,8 @@ Now, you're faced with a choice: pay up or feel like you've wasted hours setting
 
 But here's the good news. There's a growing number of offerings that provide free hosting, making it easier for people to have their own websites.
 
+## Azure and Static Web App.
+
 Today, I want to spotlight what Microsoft Azure has to offer. Specifically, they now have a free tier for hosting static web apps.
 
 A static app, as opposed to a dynamic one, means that all the content is pre-rendered for all users with little to no server-side processing. This often results in faster and more reliable performance but comes with fewer options for handling requests and dynamic content.
@@ -31,6 +33,8 @@ Now that we have a clearer picture of what a static web app is, let's dive into 
 And by the way, Azure static web apps leverage GitHub Actions, making website updates a breeze. Simply commit changes to the main branch, push them to the repository, and voilà – your webpage is updated with the new changes.
 
 _You can create your own free Azure account [***here***](https://azure.microsoft.com/en-us/free)_.
+
+## Create your website
 
 Now that hosting is sorted, it's time to build your website. Since we've chosen a static web app in Azure, you have several options.
 
