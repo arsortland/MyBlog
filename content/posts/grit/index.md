@@ -5,8 +5,8 @@ draft: false
 cover:
     image: img/grit.jpeg
     imageHeight: 20
-    caption: climber looking at a thick rope
-    alt: climber looking at a thick rope
+    caption: a long paved road
+    alt: a long paved road
     hidden: true
 
 ---
