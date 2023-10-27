@@ -5,9 +5,8 @@ draft: false
 cover:
     image: img/python.jpg
     imageHeight: 20
-    caption: python code on screen
     alt: python code on screen
-    hidden: true
+    hidden: false
 tags: ["python", "code", "tutorial", "beginner", "programming"]
 ---
 
