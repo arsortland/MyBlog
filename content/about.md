@@ -24,3 +24,8 @@ Either way thanks for sticking around. Hope you find something useful here.
 With kind regards,
 
 André
+
+{{< rawhtml >}}
+<img style="border-radius:25%;margin-left:auto;margin-right:auto;" width="25%" src="/azsolutionsarchitect.png" alt="Picture of me">
+<p align="center"></p>
+{{< /rawhtml >}}
