@@ -15,7 +15,7 @@ I consider myself being a tech enthusiast and loves to learn new things in every
 On a daily basis I work as a Cloud consultant mainly focusing on Azure.
 
 But I enjoy learning more about things in many fields like AI, LLM, app development, infrastructure, network, security, hacking, pentesting and alot more.
-So i thought it would be a cool idea to have a place for myself to document some of the things im doing and learning.
+So I thought it would be a cool idea to have a place for myself to document some of the things im doing and learning.
 
 I might accidentaly help someone else or inspire you to learn something new aswell?
 
