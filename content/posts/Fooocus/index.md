@@ -1,5 +1,5 @@
 ---
-title: "Generative AI images"
+title: "Generative AI images with Fooocus"
 date: 2023-12-10T10:50:06+01:00
 draft: false
 cover:
